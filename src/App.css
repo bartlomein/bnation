@@ -1,19 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Shrikhand|Yatra+One');
+
+body{
+  max-width:1200px !important;
+}
+h1{
+  Font-Family: 'Raleway', Sans-Serif;
+Font-Size: 70px;
+}
+.welcome-to-da-boof{
+  font-family: 'Yatra One', cursive;
+  margin-bottom:0px;
+
+}
+
+h2,h3,p{
+  Font-Family: 'Open Sans', Sans-Serif;
+  color:whiTE;
+  
+}
+
+.boof-it-baby{
+  font-family: 'Shrikhand', cursive;
+  color:#F2BAC9;
+  transform: rotate(20deg);
+  
+}
 .App {
   text-align: center;
+  background: url('/capitol.jpg');
+
+  min-height: 100vh;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+
+.pic-of-my-boy-brett img{
+width: 50%;
 }
+
+
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -22,11 +54,4 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
